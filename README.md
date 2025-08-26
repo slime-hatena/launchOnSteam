@@ -1,42 +1,24 @@
+generated from [slime-hatena/launch-umamusume-from-steam](https://github.com/slime-hatena/launch-umamusume-from-steam)
+
+# launchOnSteam
+非Steamゲーを無理やりSteamで起動して「プレイ中」を維持するスクリプト。  
+自分用ですが使えそうなら持っていってください。
+
 > [!TIP]
-> Steam版がリリースされました🎉 こんなもの使わず直接起動しましょう！  
-> [ウマ娘 プリティーダービー - Steam](https://store.steampowered.com/app/3564400/_/)
-
-# launch-umamusume-from-steam
-DMMGAMES版ウマ娘をSteamから起動できるようにするスクリプトです。  
-起動中はフレンドやプロフィールの「非Steamゲーム中」を維持します。
-
-## テスト環境
-
-- Windows 10 Pro (20H2)
-- Windows 11 Pro (21H2)
-
-以上の環境以外でのみ動作を確認しました。こちら以外でも動作する可能性は高いですが、保証はできない点をご承知おきください。
+> 使用する場合はコピペ、もしくはzipでダウンロードしてください！。
+> どうしてもgitを使用する場合はチェックアウト先をコミット単位にして、バージョンを固定してください。
+> 私がスクリプトを気ままに更新する可能性があるので、追従すると急に動かなくなります。
 
 ## 免責事項
 
 このスクリプトを実行時に起きた損害等には責任を負いかねます。  
 また使用した結果、ゲーム内でBANされる可能性も否定できません。自己責任でご利用ください。
 
-詳しくは[LICENSE](https://github.com/slime-hatena/launch-umamusume-from-steam/blob/main/LICENSE)をご確認ください。
-
-## UAC設定が最低の方向けの案内
-
-このスクリプトを導入しなくても、直接urlスキームを指定することで「非Steamゲーム中」を維持することができます。  
-UAC設定が１段階でも上がっている場合は、起動後すぐにオンライン状態に戻ってしまうため、こちらのスクリプトをお使いください。
-
-[設定について](https://github.com/slime-hatena/launch-umamusume-from-steam/issues/5)
+**以下は以前のスクリプトの説明のままです、そのうち書き換えます**
 
 ## 使い方
 
-### 1. スクリプトをダウンロードする
-
-[Release](https://github.com/slime-hatena/launch-umamusume-from-steam/releases)の「Source code(zip)」をクリックします。  
-ダウンロード後、解凍し任意のフォルダーに配置します。移動や削除しない位置に配置してください。
-
-Gitが使える方はCloneしてもokです。
-
-### 2. Steamに非Steamゲームを登録する
+### 1. Steamに非Steamゲームを登録する
 
 Steamクライアントの左下から追加します。
 
@@ -47,7 +29,7 @@ Steamクライアントの左下から追加します。
 
 ![image](https://github.com/slime-hatena/launch-umamusume-from-steam/blob/images/5ce395a6-df58-f116-998e-1d4991697a75.png)
 
-### 3. ゲームの設定を編集する
+### 2. ゲームの設定を編集する
 
 追加したゲームを右クリックし、プロパティを開きます。
 
@@ -73,7 +55,7 @@ Steamクライアントの左下から追加します。
 
 ゲームを起動するとDMMGAMESランチャーとウマ娘が起動するはずです。
 
-### 4. 見た目を良くする（任意）
+### 3. 見た目を良くする（任意）
 
 このままだと見た目が悪いので変更します。
 必要な画像は3種です。
