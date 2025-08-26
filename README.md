@@ -1,3 +1,7 @@
+> [!TIP]
+> Steam版がリリースされました🎉 こんなもの使わず直接起動しましょう！  
+> [ウマ娘 プリティーダービー - Steam](https://store.steampowered.com/app/3564400/_/)
+
 # launch-umamusume-from-steam
 DMMGAMES版ウマ娘をSteamから起動できるようにするスクリプトです。  
 起動中はフレンドやプロフィールの「非Steamゲーム中」を維持します。
